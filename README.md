@@ -1,5 +1,4 @@
-# Test-Nougat-Device-Tree-Panasonic-P55-Novo
-Build<br></br>
+# Build<br></br>
 repo init -u git://github.com/ziprom/android.git -b lineage-14.1-mtk<br></br>
 repo sync<br></br>
 git clone https://github.com/Shivom007/Test-Nougat-Device-Tree-Panasonic-P55-Novo.git -b cm-14.1 device/Panasonic/P55Novo<br></br>
