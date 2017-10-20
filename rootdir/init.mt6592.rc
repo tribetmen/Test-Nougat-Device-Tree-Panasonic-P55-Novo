@@ -11,8 +11,6 @@ on charger
     write /sys/devices/platform/mt_usb/cmode 0
 
 on init
-    export LD_PRELOAD "libxlog.so"
-
    # See storage config details at http://source.android.com/tech/storage/
     mkdir /storage/sdcard 0555 root root
  
