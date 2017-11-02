@@ -36,11 +36,12 @@ TARGET_KMODULES := true
 OLD_KERNEL := true
 
 # Custom bootimg
-BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/bootimg.mk
+BOARD_CUSTOM_MKBOOTIMG := mtkbootimg
+BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/bootimg.mk
 BOARD_CUSTOM_BOOTIMG := true
 
 # mkbootimg ARGS
-BOARD_MKBOOTIMG_ARGS := --board 1336460062
+BOARD_MKBOOTIMG_ARGS := --mtk 1
 
 # Enable dex-preoptimization
 WITH_DEXPREOPT := false
