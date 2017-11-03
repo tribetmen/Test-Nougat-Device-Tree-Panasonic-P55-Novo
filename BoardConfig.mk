@@ -37,7 +37,7 @@ OLD_KERNEL := true
 
 # Custom bootimg
 BOARD_CUSTOM_MKBOOTIMG := mtkbootimg
-BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/bootimg.mk
 BOARD_CUSTOM_BOOTIMG := true
 
 # mkbootimg ARGS
